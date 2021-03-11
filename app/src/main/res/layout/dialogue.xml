@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="396dp"
+        android:layout_height="99dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter No"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="502dp">
+
+        <Button
+            android:id="@+id/defalt"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="241dp"
+            android:layout_marginRight="241dp"
+            android:layout_marginBottom="75dp"
+            android:text="Default" />
+
+        <Button
+            android:id="@+id/set"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginBottom="75dp"
+            android:text="Set" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
